@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    var p1 = "cesar";
+    var p2 = "ivonne";
+    var p3 = 2;
+    var p4 = "si";
+    var p5 = "si";
+    
+    alert("¿Que tanto sabes de mi?");
+    let c1 = prompt ("Listo para Empezar");
+  
+
+    if(c1 == "si"){
+   //while
+        while(p1) {
+
+            alert("Tendremos unas breves preguntas");
+        
+        let pre1 = prompt ("Cual es mi nombre");
+         if(p1 == pre1){
+            alert("Eso es Todo, Tienes un Punto :)");
+         } else{
+            alert("Crei que me Conocias , Tienes un Strick :(");
+         }
+         let pre2 = prompt ("Quien es mi Mama");
+         if(p2 == pre2){
+            alert("Eso es Todo, Tienes un Punto :)");
+         } else{
+            alert("Crei que lo Sabias , Tienes un Strick :(");
+         }
+         let pre3 = prompt ("Cuantas Hermanas Tengo");
+         if(p3 == pre3){
+            alert("Eso es Todo, Tienes un Punto :)");
+         } else{
+            alert("Entonces no eres sercano a mi , Tienes un Strick :(");
+         }
+         //schitch
+         switch (p3) {
+             case 1:
+                 alert("Tengo 1 Hermana");
+                 break;
+             case 2:
+                 alert("Te juro que tengo 2 Hermanas");
+                 break;
+             default:
+                 alert("No tengo ni 1 ni 2 Hermanas")
+                 break;
+         }
+         let pre4 = prompt ("Tengo Novia");
+         //if else
+         if(p4 == pre4){
+            alert("Eso es Todo, Tienes un Punto :)");
+         } else{
+            alert("Tienes que informarte mas , Tienes un Strick :(");
+         }
+         let pre5 = prompt ("Has salido Conmigo");
+         if(p5 == pre5){
+            alert("Eso es Todo, Tienes un Punto :)");
+         } else{
+            alert("Pues vamos a Salir , Tienes un Strick :(");
+         }
+     
+        
+  }
+   
+ 
+   //else if
+    }else if(c1 == "no"){
+
+        alert("Te propongo un Juego");
+       
+      alert("Adivinare el Numero que escojas y despues tu Edad");
+       alert("Escoje un Numero entre 1-10");
+      //for
+       for(let dia = 1; dia <=10; dia++){
+               console.log(dia);
+      } 
+    let num = prompt("Que Numero escogiste?");
+   
+    var res = num * 2;
+    var res1 = res + 5;
+    var res2 = res1 * 50;
+    var res3 = res2 + 2022;
+
+    let num1 = prompt("Ya fue tu cumpleaños:? 1-Si / 2-No");
+
+    if(num1 == 1){
+       let res4= res3 + 250;
+       
+       let num3 = prompt("Ingresa el año de tu Nacimiento:");
+
+       let res6 = res4 - num3;
+
+       alert("El numero que escogiste y tu edad son:" + res6);
+
+
+    } else if(num1 == 2){
+       
+      let res5 = res3 + 251;
+       
+       let num4 = prompt("Ingresa el año de tu Nacimiento:");
+
+let res7 = res5 - num4;
+
+alert("El numero que escogiste y tu edad son:" + res7);
+    }
+
+
+        
+
+    
+
+
+    }
+    
+     
+
+    
+    
+    </script>
+</body>
+</html>
