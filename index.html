@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./calculadora.js"></script>
+    <script>
+        alert("Calculadora Basica 1-Suma 2-Resta 3-Multiplicacion 4-Divicion");
+        let opc = prompt("Eligue una Opcion:");
+         while (opc == 1) {
+                let n1 = prompt("Ingresa el Primer Numero:");
+                 let n2 = prompt("Ingresa el Segundo Numero:");
+                 alert("Tu Suma es" + "=" + suma(n1,n2));
+                 break;
+         }  while (opc == 2) {
+            
+                 let nu1 = prompt("Ingresa el Primer Numero:");
+                 let nu2 = prompt("Ingresa el Segundo Numero:");
+                 alert("Tu Resta es" + "=" + resta(nu1,nu2));
+                 break;
+         }  while (opc == 3) {
+    
+                 let num1 = prompt("Ingresa el Primer Numero:");
+                 let num2 = prompt("Ingresa el Segundo Numero:");
+                 alert("Tu Multiplicacion es" + "=" + multiplicacion(num1,num2));
+                 break;
+         }  while (opc == 4) {     
+            
+                 let nume1 = prompt("Ingresa el Primer Numero:");
+                 let nume2 = prompt("Ingresa el Segundo Numero:");
+                 alert("Tu Divicion es" + "=" + divicion(nume1,nume2));
+                 break;
+         }
+                
+         
+    </script>   
+    
+</body>
+</html>
